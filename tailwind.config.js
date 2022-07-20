@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'body-mipatron-clase': "url('../img/pattern.png')",
+      }
+    },
   },
   plugins: [],
 }
